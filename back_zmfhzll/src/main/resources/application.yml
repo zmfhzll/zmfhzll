@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: back_zmfhzll
+  profiles:
+    active: dev
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+server:
+  port: 8000
