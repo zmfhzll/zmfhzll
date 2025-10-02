@@ -17,6 +17,9 @@ public class RolesEntity {
     @Column(name = "role_no")
     private Long roleNo;
 
+    @Column(name = "role_type", nullable = false, length = 20)
+    private String roleType;
+
     @Column(name = "role_name", nullable = false, length = 20)
     private String roleName;
 }
